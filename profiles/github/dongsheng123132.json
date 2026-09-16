@@ -1,0 +1,37 @@
+{
+  "schema": "showme/v1",
+  "id": "github:dongsheng123132",
+  "name": "贺方升",
+  "github": "dongsheng123132",
+  "city": "深圳",
+  "stack": [
+    "Rust",
+    "TypeScript",
+    "AI",
+    "Node.js"
+  ],
+  "bio": "做 U-King、origin-kernel，想找个懂技术、爱折腾的搭子",
+  "contact": {
+    "email": "he@hequbing.com",
+    "wechat": "dsds8848",
+    "telegram": ""
+  },
+  "prefer": {
+    "gender": "女",
+    "city": [
+      "深圳"
+    ],
+    "age_range": [
+      25,
+      35
+    ]
+  },
+  "photo": "https://avatars.githubusercontent.com/dongsheng123132",
+  "tags": [
+    "Rust",
+    "TypeScript",
+    "AI",
+    "Node.js"
+  ],
+  "updated_at": "2026-09-16T04:00:00.000Z"
+}
