@@ -2,6 +2,8 @@
 
 Public `showme/v1` registry for `datecli findme` and the `find-love` dating skill. It is a dating-only index for opt-in public adult profiles.
 
+[![skills.sh](https://skills.sh/b/dongsheng123132/showme-registry)](https://skills.sh/dongsheng123132/showme-registry)
+
 Raw index URL:
 
 ```text
@@ -35,3 +37,19 @@ For the launch copy, first-ten-card plan, and current skill distribution status,
 ## Skills
 
 The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. Business, hiring, supplier, and collaboration profiles belong in the separate [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), never in this index.
+
+### Install Find Love
+
+After ClawHub review clears, OpenClaw users can install the published package:
+
+```bash
+openclaw skills install @dongsheng123132/find-love
+```
+
+The GitHub source works now through skills.sh-compatible agents:
+
+```bash
+npx skills add dongsheng123132/showme-registry --skill find-love --full-depth
+```
+
+Or review the source first and install the `skills/find-love` folder into your agent's skills directory.
