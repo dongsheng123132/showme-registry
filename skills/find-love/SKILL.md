@@ -21,7 +21,7 @@ Help the user publish a small, honest, public dating intent that people and AI a
 - State only voluntary, lawful, adult-to-adult dating intent. Do not help target minors, evade consent, harass people, or scrape closed platforms.
 - Use a contact method with a clear boundary, such as a dedicated email address or public social profile. Do not expose a private chat identifier by default.
 - Do not send messages, create accounts, open pull requests, or publish to any platform until the user explicitly approves that external action.
-- Keep `showme/v1` required fields intact. `intents` is optional and allows the same profile to later advertise activity, business, supplier, or collaboration needs.
+- Keep `showme/v1` required fields intact. In this dating-only registry, any optional `intents` entry must use `kind: "dating"`; professional needs belong in the separate BossCLI Registry.
 
 ## Output Quality
 

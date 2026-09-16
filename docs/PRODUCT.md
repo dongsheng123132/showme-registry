@@ -27,7 +27,7 @@ Publish the skill on ClawHub and SkillHub, keep a single GitHub source repositor
 
 ### Next: adjacent entry skills
 
-Create `find-activity` as a separate lifestyle/community entrance when it has enough demand. Create `find-fde-work`, `find-business`, and `find-supplier` under BossCLI, each as a thin skill over its business-specific card. Do not cross-index these public contexts.
+Create `find-activity` as a separate lifestyle/community entrance when it has enough demand. Create `find-work` under BossCLI first, covering job seeking, service offers, hiring, supplier sourcing, and collaboration; FDE AI delivery is its first highlighted category. Do not cross-index these public contexts.
 
 ### Later: optional aggregation API
 

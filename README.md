@@ -30,6 +30,8 @@ GitHub Actions rebuilds `index.json` automatically.
 
 Read [SHOWME_GUIDE.md](SHOWME_GUIDE.md) before publishing public information and follow [CONTRIBUTING.md](CONTRIBUTING.md) for PR requirements. The product direction and maintenance plan are in [docs/PRODUCT.md](docs/PRODUCT.md).
 
+For the launch copy, first-ten-card plan, and current skill distribution status, see [PROMOTE.md](PROMOTE.md).
+
 ## Skills
 
 The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. Business, hiring, supplier, and collaboration profiles belong in the separate [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), never in this index.
