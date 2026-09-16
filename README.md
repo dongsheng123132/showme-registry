@@ -36,7 +36,7 @@ For the launch copy, first-ten-card plan, and current skill distribution status,
 
 ## Skills
 
-The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. Business, hiring, supplier, and collaboration profiles belong in the separate [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), never in this index.
+The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. [date-publisher](skills/date-publisher) turns an approved card into controlled platform-specific publication drafts. Business, hiring, supplier, and collaboration profiles belong in the separate [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), never in this index.
 
 ### Install Find Love
 
