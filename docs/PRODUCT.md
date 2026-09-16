@@ -4,7 +4,7 @@
 
 `showme` is a portable public profile format. `findme` is a lightweight index and local search tool. The first market-facing skill, `find-love`, helps a person draft, publish, and discover a public adult dating intent.
 
-The unifying abstraction is not "dating": it is a person or organization publishing an **intent** to meet, buy, collaborate, hire, or participate. Dating is the first entrance because the need is clear, personal, and painful; the same optional `intents` array will support later skills without splitting the registry.
+The unifying abstraction is an **intent**, but public contexts are separated. `showme-registry` is dating-only. Professional intents live in the independent [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry). The format is shared; the audience, data disclosure, contact method, search index, and site are not.
 
 ## Lowest-Cost Architecture
 
@@ -27,7 +27,7 @@ Publish the skill on ClawHub and SkillHub, keep a single GitHub source repositor
 
 ### Next: adjacent entry skills
 
-Create `find-activity`, `find-business`, and `find-supplier` as thin instruction layers over the same `showme/v1` card and `intents.kind`. Do not create separate registries or accounts.
+Create `find-activity` as a separate lifestyle/community entrance when it has enough demand. Create `find-fde-work`, `find-business`, and `find-supplier` under BossCLI, each as a thin skill over its business-specific card. Do not cross-index these public contexts.
 
 ### Later: optional aggregation API
 

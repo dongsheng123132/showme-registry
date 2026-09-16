@@ -27,6 +27,12 @@ function readProfile(file) {
   if (profile.id !== `github:${profile.github}`) {
     throw new Error(`${relative(root, file)} id must be github:${profile.github}`);
   }
+  if (!Array.isArray(profile.intents) || profile.intents.length === 0) {
+    throw new Error(`${relative(root, file)} needs at least one dating intent`);
+  }
+  if (profile.intents.some((intent) => intent.kind !== 'dating')) {
+    throw new Error(`${relative(root, file)} can contain only dating intents`);
+  }
   return profile;
 }
 

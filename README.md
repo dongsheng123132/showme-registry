@@ -1,6 +1,6 @@
 # showme-registry
 
-Public `showme/v1` registry for `datecli findme`. It indexes opt-in public profiles and the connections people want to make, beginning with the `find-love` dating skill.
+Public `showme/v1` registry for `datecli findme` and the `find-love` dating skill. It is a dating-only index for opt-in public adult profiles.
 
 Raw index URL:
 
@@ -32,4 +32,4 @@ Read [SHOWME_GUIDE.md](SHOWME_GUIDE.md) before publishing public information and
 
 ## Skills
 
-The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. It uses the optional `intents` field while keeping the same `showme/v1` profile compatible with later `activity`, `business`, `supplier`, and `collaboration` entries.
+The first entry skill is [find-love](skills/find-love): an AI workflow for drafting, publishing, and searching a consent-first public dating intent. Business, hiring, supplier, and collaboration profiles belong in the separate [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), never in this index.

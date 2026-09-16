@@ -17,20 +17,13 @@ The last command prints the profile path and pull-request steps. Add your card t
 
 No GitHub account yet? Create one at [GitHub signup](https://github.com/signup), choose a public username, then return to the command above. An AI assistant can guide the setup, but you should personally review account recovery settings and every public field before submitting.
 
-## One Profile, Multiple Intentions
+## Keep Contexts Separate
 
-The common profile is `showme/v1`. Add an optional `intents` list when you want to state a request. The same person can publish more than one request without creating duplicate accounts.
+This is a dating-only registry. Use the optional `intents` list with `kind: "dating"` here. Do not include job seeking, supplier, investment, hiring, or other commercial requests in this profile.
 
-| `kind` | Public request example |
-| --- | --- |
-| `dating` | Looking for a serious partner in Shenzhen |
-| `activity` | Looking for weekend hiking or exhibition companions |
-| `business` | Looking for introductions to enterprise AI events |
-| `supplier` | Looking for a reliable small-batch manufacturing supplier |
-| `collaboration` | Looking for an AI product co-builder |
-| `hiring` | Looking for a contract frontend engineer |
+The JSON envelope is still portable `showme/v1`, but sharing a format does not mean sharing an audience. A person who also has business needs should create a separately reviewed business card in [BossCLI Registry](https://github.com/dongsheng123132/bosscli-registry), using a different disclosure and contact choice.
 
-See [the intent-card reference](skills/find-love/references/intent-card.md) for the portable JSON shape.
+See [the dating intent-card reference](skills/find-love/references/intent-card.md) for the JSON shape.
 
 ## What Becomes Public
 
@@ -52,4 +45,4 @@ The registry stores only public cards. It does not decide a match and it does no
 
 Host the same `profile.json` on a GitHub Pages or personal site, then write a platform-specific short introduction for a blog, community, or social post. Each platform has its own rules: publish only where you have an account and permission, and get explicit approval before any AI posts or messages on your behalf.
 
-The registry remains the lightest shared index. It can later collect public profile URLs from approved sources, but it should never copy private platform data or require users to hand over passwords.
+The registry remains the lightest shared index. It can later collect public profile URLs from approved sources, but it should never copy private platform data or require users to hand over passwords. Professional public cards are collected separately by BossCLI.
